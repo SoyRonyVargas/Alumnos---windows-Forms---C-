@@ -87,6 +87,17 @@ namespace sdq.forms
 
             this.Close();
 
+            Main obj = (Main)Application.OpenForms["Main"];
+
+            obj.renderTable();
+            
+            //tabla__alumnos.Update();
+            //datagridview1.Refresh();
+
+            //Form1 main = new Form1();
+
+            //main.ShowDialog();
+
         }
 
         private void input__matricula_Click(object sender, EventArgs e)

@@ -54,12 +54,11 @@
   <ItemGroup>
     <Compile Include="clases\Alumno.cs" />
     <Compile Include="clases\Context.cs" />
+    <Compile Include="clases\Ordenamiento.cs" />
     <Compile Include="clases\Utils.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="x.cs" />
+    <Compile Include="x.Designer.cs">
+      <DependentUpon>x.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\Crear.cs">
       <SubType>Form</SubType>
@@ -67,10 +66,19 @@
     <Compile Include="forms\Crear.Designer.cs">
       <DependentUpon>Crear.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="x.resx">
+      <DependentUpon>x.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\Crear.resx">
       <DependentUpon>Crear.cs</DependentUpon>
